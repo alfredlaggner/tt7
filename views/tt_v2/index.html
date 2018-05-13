@@ -1,0 +1,414 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    
+    <meta charset="UTF-8" />
+    <title>Akaishi Ecommerce - Home page</title>
+    <meta name='author' content="Mountain Themes - mountainthemes.com" />
+    
+    <!-- !js -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <script type="text/javascript" src="assets/js/jquery.1.7.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="assets/js/chosen.jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.plugins.js"></script>
+    <script type="text/javascript" src="assets/js/akaishi.js"></script>
+    
+    <script type="text/javascript" src="assets/js/shadowbox.js"></script>
+    <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/luglio7.json?callback=app.twitter.callback&amp;count=1&amp;exclude_replies=true"></script>
+    
+    <script type="text/javascript">
+        app.vars.currencySymbol = '$';
+    </script>
+    
+    <!-- !css -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif|Chivo" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/squaregrid.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/chosen.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/layout.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/shadowbox.css" media="all" />
+    
+</head>
+<body>
+    
+    <!-- !top-bar -->
+    <div id="top-bar">
+        <div id="top-bar-content">
+            <span id="top-bar-content-user">
+                logged in as <a href="javascript:void(0)">Adam</a> (<a href="javascript:void(0)">logout</a>)
+            </span>
+            <a href="cart.html" id="top-bar-checkout">checkout</a>
+            <span id="top-bar-content-items">you have 4 products in your cart</span>
+        </div>
+    </div>
+    
+    <!-- !wrapper -->
+    <div id="wrapper">
+        <div id="container">
+            
+            <!-- !header -->
+            <header class="sg-35">
+                <a id="header-logo" href="index.html"></a>
+                <nav id="header-nav">
+                    <ul>
+                        <li class="sel"><a href="index.html">home</a></li>
+                        <li><a href="page.html">about us</a></li>
+                        <li><a href="collection.html">collections</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                    </ul>
+                </nav>
+                
+                <form action="/search" method="get" id="header-search">
+                    <input id="header-search-text" name="q" placeholder="search" type="text" />
+                    <input id="header-search-submit" type="image" src="assets/img/img-px.png" alt="search" />
+                </form>
+
+                <nav  id="header-nav-2">
+                    <ul>
+                        <li><a href="#classes">activities</a></li>
+                        <li><a href="#gear">gear</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <!-- !line -->
+            <div class="sg-35 line"></div>
+            
+            <!-- !PAGE-CONTENT -->
+            
+            <!-- !home-slider -->
+            <section id="home-slider" class="sg-23">
+                
+                <div id="home-slider-photo">
+                    
+                    <img id="home-slider-photo-0" class="home-slider-photo preload" src="assets/img/img-test-02.jpg" alt="" />
+                    <img id="home-slider-photo-1" class="home-slider-photo preload home-slider-photo-unsel" src="assets/img/img-test-01.jpg" alt="" />
+                    <img id="home-slider-photo-2" class="home-slider-photo preload home-slider-photo-unsel" src="assets/img/img-test-03.jpg" alt="" />
+                    <img id="home-slider-photo-3" class="home-slider-photo preload home-slider-photo-unsel" src="assets/img/img-test-11.jpg" alt="" />
+                    
+                    <div id="home-slider-photo-price">
+                        <div id="home-slider-photo-price-0" class="home-slider-photo-price">
+                            <span>only</span>$185.00
+                        </div>
+                        <div id="home-slider-photo-price-1" class="home-slider-photo-price home-slider-photo-price-unsel">
+                            <span>only</span>$164.50
+                        </div>
+                        <div id="home-slider-photo-price-2" class="home-slider-photo-price home-slider-photo-price-unsel">
+                            <span>only</span>$177.00
+                        </div>
+                        <div id="home-slider-photo-price-3" class="home-slider-photo-price home-slider-photo-price-unsel">
+                            <span>only</span>$199.40
+                        </div>
+                    </div>
+            
+                    <script type="text/javascript">
+                    app.slider.vars.productUrl[0] = 'product.html';
+                    app.slider.vars.productUrl[1] = 'product.html';
+                    app.slider.vars.productUrl[2] = 'product.html';
+                    app.slider.vars.productUrl[3] = 'product.html';
+                    </script>
+                    
+                    <a id="home-slider-photo-info" href="javascript:void(0)">more info</a>
+                    
+                </div>
+            
+                <div id="home-slider-description">
+                    <div id="home-slider-description-0" class="home-slider-description">
+                        <h2>Mauris iaculis porttitor</h2>
+                        <p>Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin.</p>
+                    </div>
+                    <div id="home-slider-description-1" class="home-slider-description home-slider-description-unsel">
+                        <h2>Nulla facilisi. Duis aliquet</h2>
+                        <p>Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus.</p>
+                    </div>
+                    <div id="home-slider-description-2" class="home-slider-description home-slider-description-unsel">
+                        <h2>Vestibulum ante ipsum</h2>
+                        <p>Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit.</p>
+                    </div>
+                    <div id="home-slider-description-3" class="home-slider-description home-slider-description-unsel">
+                        <h2>Sed auctor neque eu tellus</h2>
+                        <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In.</p>
+                    </div>
+                </div>
+                
+                <div id="home-slider-bottom">
+                    <a href="javascript:void(0)" id="home-slider-bottom-right"></a>
+                    <a href="javascript:void(0)" id="home-slider-bottom-left"></a>
+                    <div id="home-slider-bottom-indexes"></div>
+                </div>
+            
+            </section>
+            
+            <!-- !home intro -->
+            <div id="home-intro" class="sg-11">
+                <div id="home-intro-content">
+                    <h3>Lorem Ipsum Baby</h3>
+                    <p>Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.</p>
+                </div>
+                
+                <a href="#" id="home-intro-cta">test<span></span></a>
+            </div>
+            
+            <!-- !line -->
+            <div class="sg-35 line"></div>
+            
+            <!-- !featured -->
+            <h3 class="sg-35 title">featured products</h3>
+            
+            <!-- !data -->
+            <script type="text/javascript">
+            
+            // add image & values
+            
+            var productId;
+            
+            // product 1
+            
+            productId = 123;
+            
+            app.isotope.vars.homeFeaturedImages[productId]   = ['assets/img/img-test-11.jpg', 'assets/img/img-test-10.jpg', 'assets/img/img-test-09.jpg', 'assets/img/img-test-08.jpg'];
+            app.isotope.vars.homeFeaturedProducts[productId] = {
+                name  : "Lorem ipsum dolor sit amet.",
+                price : "145.00",
+                url   : 'product.html'
+            };
+            
+            // product 2
+            
+            productId = 234;
+            
+            app.isotope.vars.homeFeaturedImages[productId]   = ['assets/img/img-test-10.jpg', 'assets/img/img-test-09.jpg', 'assets/img/img-test-08.jpg', 'assets/img/img-test-11.jpg'];
+            app.isotope.vars.homeFeaturedProducts[productId] = {
+                name  : "Lorem ipsum dolor sit amet.",
+                price : "178.00",
+                url   : 'product.html'
+            };
+            
+            // product 3
+            
+            productId = 345;
+            
+            app.isotope.vars.homeFeaturedImages[productId]   = ['assets/img/img-test-09.jpg', 'assets/img/img-test-08.jpg', 'assets/img/img-test-11.jpg', 'assets/img/img-test-10.jpg'];
+            app.isotope.vars.homeFeaturedProducts[productId] = {
+                name  : "Lorem ipsum dolor sit amet.",
+                price : "178.00",
+                url   : 'product.html'
+            };
+            
+            // product 4
+            
+            productId = 456;
+            
+            app.isotope.vars.homeFeaturedImages[productId]   = ['assets/img/img-test-08.jpg', 'assets/img/img-test-07.jpg', 'assets/img/img-test-09.jpg', 'assets/img/img-test-10.jpg'];
+            app.isotope.vars.homeFeaturedProducts[productId] = {
+                name  : "Lorem ipsum dolor sit amet.",
+                price : "255.50",
+                url   : 'product.html'
+            };
+            
+            // product 5
+            
+            productId = 567;
+            
+            app.isotope.vars.homeFeaturedImages[productId]   = ['assets/img/img-test-07.jpg', 'assets/img/img-test-08.jpg', 'assets/img/img-test-09.jpg', 'assets/img/img-test-10.jpg'];
+            app.isotope.vars.homeFeaturedProducts[productId] = {
+                name  : "Lorem ipsum dolor sit amet.",
+                price : "255.50",
+                url   : 'product.html'
+            };
+            
+            // product 6
+            
+            productId = 666;
+            
+            app.isotope.vars.homeFeaturedImages[productId]   = ['assets/img/img-test-12.jpg', 'assets/img/img-test-07.jpg', 'assets/img/img-test-08.jpg', 'assets/img/img-test-09.jpg'];
+            app.isotope.vars.homeFeaturedProducts[productId] = {
+                name  : "Lorem ipsum",
+                price : "175.50",
+                url   : 'product.html'
+            };
+            
+            // product 7
+            
+            productId = 678;
+            
+            app.isotope.vars.homeFeaturedImages[productId]   = ['assets/img/img-test-12.jpg', 'assets/img/img-test-08.jpg', 'assets/img/img-test-10.jpg', 'assets/img/img-test-09.jpg'];
+            app.isotope.vars.homeFeaturedProducts[productId] = {
+                name  : "Nunc eu ullamcorper",
+                price : "100.50",
+                url   : 'product.html'
+            };
+            
+            // product 8
+            
+            productId = 699;
+            
+            app.isotope.vars.homeFeaturedImages[productId]   = ['assets/img/img-test-01.jpg', 'assets/img/img-test-02.jpg'];
+            app.isotope.vars.homeFeaturedProducts[productId] = {
+                name  : "Tellus rhoncus ut eleifend",
+                price : "278.50",
+                url   : 'product.html'
+            };
+            
+            // product 9
+            
+            productId = 715;
+            
+            app.isotope.vars.homeFeaturedImages[productId]   = ['assets/img/img-test-02.jpg', 'assets/img/img-test-03.jpg', 'assets/img/img-test-04.jpg'];
+            app.isotope.vars.homeFeaturedProducts[productId] = {
+                name  : "Donec congue lacinia",
+                price : "315.00",
+                url   : 'product.html'
+            };
+            
+            // product 10
+            
+            productId = 716;
+            
+            app.isotope.vars.homeFeaturedImages[productId]   = ['assets/img/img-test-03.jpg', 'assets/img/img-test-04.jpg', 'assets/img/img-test-05.jpg'];
+            app.isotope.vars.homeFeaturedProducts[productId] = {
+                name  : "Donec congue",
+                price : "99.00",
+                url   : 'product.html'
+            };
+            
+            // product 11
+            
+            productId = 720;
+            
+            app.isotope.vars.homeFeaturedImages[productId]   = ['assets/img/img-test-02.jpg', 'assets/img/img-test-03.jpg', 'assets/img/img-test-04.jpg'];
+            app.isotope.vars.homeFeaturedProducts[productId] = {
+                name  : "Donec congue",
+                price : "120.00",
+                url   : 'product.html'
+            };
+            
+            // product 12
+            
+            productId = 721;
+            
+            app.isotope.vars.homeFeaturedImages[productId]   = ['assets/img/img-test-03.jpg', 'assets/img/img-test-04.jpg', 'assets/img/img-test-05.jpg'];
+            app.isotope.vars.homeFeaturedProducts[productId] = {
+                name  : "Donec congue",
+                price : "155.00",
+                url   : 'product.html'
+            };
+            
+            // product 13
+            
+            productId = 722;
+            
+            app.isotope.vars.homeFeaturedImages[productId]   = ['assets/img/img-test-05.jpg', 'assets/img/img-test-08.jpg', 'assets/img/img-test-10.jpg'];
+            app.isotope.vars.homeFeaturedProducts[productId] = {
+                name  : "Donec congue",
+                price : "155.00",
+                url   : 'product.html'
+            };
+            
+            // product 14
+            
+            productId = 723;
+            
+            app.isotope.vars.homeFeaturedImages[productId]   = ['assets/img/img-test-05.jpg', 'assets/img/img-test-08.jpg', 'assets/img/img-test-10.jpg'];
+            app.isotope.vars.homeFeaturedProducts[productId] = {
+                name  : "Donec congue",
+                price : "178.30",
+                url   : 'product.html'
+            };
+            
+            // product 15
+            
+            productId = 724;
+            
+            app.isotope.vars.homeFeaturedImages[productId]   = ['assets/img/img-test-05.jpg', 'assets/img/img-test-08.jpg', 'assets/img/img-test-10.jpg'];
+            app.isotope.vars.homeFeaturedProducts[productId] = {
+                name  : "Donec congue",
+                price : "220.30",
+                url   : 'product.html'
+            };
+            
+            </script>
+            
+            <!-- !home-featured -->
+            <section class="sg-35">
+            
+                <div id="home-featured">
+                    <div class="home-featured-item" id="home-featured-item-id:123"><img class="home-featured-item-thumb preload" src="assets/img/img-test-10.jpg" alt="" /></div>
+                    <div class="home-featured-item" id="home-featured-item-id:234"><img class="home-featured-item-thumb preload" src="assets/img/img-test-09.jpg" alt="" /></div>
+                    <div class="home-featured-item" id="home-featured-item-id:345"><img class="home-featured-item-thumb preload" src="assets/img/img-test-08.jpg" alt="" /></div>
+                    <div class="home-featured-item" id="home-featured-item-id:456"><img class="home-featured-item-thumb preload" src="assets/img/img-test-11.jpg" alt="" /></div>
+                    <div class="home-featured-item" id="home-featured-item-id:567"><img class="home-featured-item-thumb preload" src="assets/img/img-test-07.jpg" alt="" /></div>
+                    <div class="home-featured-item" id="home-featured-item-id:666"><img class="home-featured-item-thumb preload" src="assets/img/img-test-01.jpg" alt="" /></div>
+                    <div class="home-featured-item" id="home-featured-item-id:678"><img class="home-featured-item-thumb preload" src="assets/img/img-test-02.jpg" alt="" /></div>
+                    <div class="home-featured-item" id="home-featured-item-id:699"><img class="home-featured-item-thumb preload" src="assets/img/img-test-03.jpg" alt="" /></div>
+                    <div class="home-featured-item" id="home-featured-item-id:715"><img class="home-featured-item-thumb preload" src="assets/img/img-test-04.jpg" alt="" /></div>
+                    <div class="home-featured-item" id="home-featured-item-id:716"><img class="home-featured-item-thumb preload" src="assets/img/img-test-05.jpg" alt="" /></div>
+                    <div class="home-featured-item" id="home-featured-item-id:716"><img class="home-featured-item-thumb preload" src="assets/img/img-test-06.jpg" alt="" /></div>
+                    <div class="home-featured-item" id="home-featured-item-id:721"><img class="home-featured-item-thumb preload" src="assets/img/img-test-07.jpg" alt="" /></div>
+                    <div class="home-featured-item" id="home-featured-item-id:722"><img class="home-featured-item-thumb preload" src="assets/img/img-test-12.jpg" alt="" /></div>
+                    <div class="home-featured-item" id="home-featured-item-id:723"><img class="home-featured-item-thumb preload" src="assets/img/img-test-13.jpg" alt="" /></div>
+                    <div class="home-featured-item" id="home-featured-item-id:724"><img class="home-featured-item-thumb preload" src="assets/img/img-test-14.jpg" alt="" /></div>
+                </div>
+                
+            </section>
+            
+            <!-- !line -->
+            <div class="sg-35 line"></div>
+            
+            <div class="sg-11 bottom-box">
+                <div id="bottom-box-latest-post" class="bottom-box-content">
+                    <h4>latest from the blog</h4>
+                    <p id="bottom-box-latest-post-date">11.24.2011</p>
+                    <h5><a href="article.html">Vestibulum ante ipsum primis in faucibus orci.</a></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus </p>
+                </div>
+            </div>
+            <div class="sg-11 bottom-box">
+                <div id="bottom-box-twitter-socials" class="bottom-box-content">
+                    <h4>twitter</h4>
+                    <cite>Etiam at risus et justo dignissim congue.</cite>
+                    <div id="bottom-box-twitter-socials-icons">
+                        
+                        <a href="https://twitter.com/#!/designofseven" class="twitter-icon social-icon"></a>
+                        <a href="http://www.facebook.com/luglio7" class="facebook-icon social-icon"></a>
+                        <a href="http://www.vimeo.com" class="vimeo-icon social-icon"></a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="sg-11 bottom-box">
+                <div id="bottom-box-newsletter" class="bottom-box-content">
+                    <h4>contact us</h4>
+                    <p>Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus.</p>
+                </div>
+            </div>
+            
+            <!-- !PAGE-CONTENT-END -->
+            
+            <!-- !line -->
+            <div class="sg-35 line"></div>
+            
+            <footer class="sg-35">
+            
+            <nav>
+                <ul>
+                    <li class="sel"><a href="javascript:void(0)">home</a></li>
+                    <li><a href="javascript:void(0)">about us</a></li>
+                    <li><a href="javascript:void(0)">collections</a></li>
+                    <li><a href="javascript:void(0)">blog</a></li>
+                    <li><a href="javascript:void(0)">contact us</a></li>
+                </ul>
+            </nav>
+
+            Class aptent taciti sociosqu ad litora torquent per conubia.
+            </footer>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
